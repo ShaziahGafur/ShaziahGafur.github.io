@@ -1,0 +1,28 @@
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+*{
+    background-color: #DDF5F7;
+    text-align: center;
+}
+
+h1{
+    color:#3B577D;
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.project-title{
+    text-align: left;
+    margin-left: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.item{
+     color: #C0D9E5;
+     background:#44679F;
+     display: inline-block;
+     padding: 100px 150px 100px 150px;
+     font-family: 'Abel', sans-serif;
+}
