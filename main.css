@@ -1,21 +1,66 @@
-.landing{
+*{
+  /*  background-color: #DDF5F7;*/
+    text-align: center; /* Not all text, just for now*/
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+}
+
+.Section{
   height:100%;
-  
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+
+}
+
+/* landing section*/
+
+.landing{
+/*  background-image: url("images/60%moving stars.gif"); remove when you don't feel dizzy*/
+  background-size: 100%;
+  background-color:black;
+  /*filter: brightness(50%);*/
+  background-blend-mode: screen;
+
+
+
 }
 
 img {
     width: 200px;
    border-radius: 100%;
 }
-*{
-    background-color: #DDF5F7;
-    text-align: center;
-}
+
 
 h1{
-    color:#3B577D;
+    color:white;
     margin-top: 100px;
     font-family: 'Oswald', sans-serif;
+}
+
+h2{
+  color:white;
+}
+
+nav > ul li {
+  display:inline-block;
+
+}
+
+nav > ul a{
+  text-decoration: none;
+
+}
+
+/* Projects */
+
+.projects{
+  background: red;
 }
 
 .project-title{
