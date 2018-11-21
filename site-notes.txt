@@ -1,0 +1,10 @@
+URGENT
+Landing Page needs to be complete:
+
+- change fonts
+- nav bar needs colours
+- background image
+- add resume
+- updating quotes 
+- find a cool way to integrate my picture (maybe slight black-white filter, maybe use illusion to remove borders)
+

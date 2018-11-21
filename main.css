@@ -26,9 +26,6 @@ html, body {
   background-color:black;
   /*filter: brightness(50%);*/
   background-blend-mode: screen;
-
-
-
 }
 
 img {
@@ -40,22 +37,35 @@ img {
 h1{
     color:white;
     margin-top: 100px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Niramit', sans-serif;
+    font-weight: 300;  
 }
 
 h2{
   color:white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+nav ul{
+  background-color: white:
 }
 
 nav > ul li {
   display:inline-block;
 
+
 }
 
 nav > ul a{
   text-decoration: none;
-
+  padding: 5px 0px 5px 0px ;
+    color:white;
+    border-top-style: solid;
+    border-bottom-style: solid;
+      border-width: 2px;
+      border-color:white;
 }
+
 
 /* Projects */
 
