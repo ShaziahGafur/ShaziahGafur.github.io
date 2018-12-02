@@ -21,7 +21,7 @@ html, body {
 /* landing section*/
 
 .landing{
-/*  background-image: url("images/60%moving stars.gif"); remove when you don't feel dizzy*/
+  background-image: url("images/bkgrnd3.gif"); /*remove when you don't feel dizzy*/
   background-size: 100%;
   background-color:black;
   /*filter: brightness(50%);*/
@@ -31,22 +31,41 @@ html, body {
 img {
     width: 200px;
    border-radius: 100%;
-   margin-top: 20px;
+   margin-top: 40px;
 }
 
 
 h1{
-    font-size: 20px;
+    font-size: 40px;
     color:white;
-    margin-top: 100px;
     font-family: 'Niramit', sans-serif;
     font-weight: 300;
 }
 
 h2{
   color:white;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  margin-top: 50px;
+  font-size: 25px;
 }
+
+h2 > span{
+
+  color:white;
+font-family: 'Codystar', cursive;
+  size: 100px;
+  /*font-style: normal;  */
+
+}
+
+h3{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+
 
 nav ul{
   background-color: white:
@@ -54,19 +73,23 @@ nav ul{
 
 nav > ul li {
   display:inline-block;
-
-
 }
 
 nav > ul a{
   text-decoration: none;
   padding: 5px 0px 5px 0px ;
     color:white;
-    border-top-style: solid;
-    border-bottom-style: solid;
-      border-width: 2px;
-      border-color:white;
 }
+
+ nav> ul li .icon
+ {
+   width: 40px;
+  border-radius: 100%;
+  padding-left: 7px;
+  padding-right: 7px;
+  transition: all 1s linear;
+ }
+
 
 
 /* Projects */
