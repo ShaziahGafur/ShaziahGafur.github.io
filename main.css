@@ -31,19 +31,21 @@ html, body {
 img {
     width: 200px;
    border-radius: 100%;
+   margin-top: 20px;
 }
 
 
 h1{
+    font-size: 20px;
     color:white;
     margin-top: 100px;
     font-family: 'Niramit', sans-serif;
-    font-weight: 300;  
+    font-weight: 300;
 }
 
 h2{
   color:white;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Kaushan Script', cursive;
 }
 
 nav ul{
