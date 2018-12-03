@@ -30,6 +30,7 @@ html, body {
 
 img {
     width: 200px;
+    object-fit: cover;
    border-radius: 100%;
    margin-top: 40px;
 }
@@ -89,10 +90,12 @@ nav > ul a{
   padding-right: 7px;
   position: relative;
   left: -11px;
-  transition: all 1s linear;
+  transition: all 0.5s linear;
  }
 
-
+.icon:hover{
+   filter: brightness(50%);
+}
 
 /* Projects */
 
