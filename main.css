@@ -87,6 +87,8 @@ nav > ul a{
   border-radius: 100%;
   padding-left: 7px;
   padding-right: 7px;
+  position: relative;
+  left: -11px;
   transition: all 1s linear;
  }
 
