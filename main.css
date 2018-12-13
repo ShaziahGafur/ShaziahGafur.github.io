@@ -21,7 +21,7 @@ html, body {
 /* landing section*/
 
 .landing{
-  background-image: url("images/bkgrnd3.gif"); /*remove when you don't feel dizzy*/
+  background-image: url("images/bkgrnd6-slow60.gif"); /*remove when you don't feel dizzy*/
   background-size: 100%;
   background-color:black;
   /*filter: brightness(50%);*/
