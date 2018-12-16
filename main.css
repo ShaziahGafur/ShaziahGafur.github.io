@@ -21,7 +21,7 @@ html, body {
 /* landing section*/
 
 .landing{
-  background-image: url("images/bkgrnd-10_crystal_71.4.gif"); /*remove when you don't feel dizzy*/
+  background-image: url("images/bkgrnd-10_crystal_57_80speed.gif"); /*remove when you don't feel dizzy*/
   background-size: 100%;
   background-color:black;
   /*filter: brightness(50%);*/
@@ -29,7 +29,7 @@ html, body {
 }
 
 img {
-    width: 200px;
+    width: 150px;
     object-fit: cover;
    border-radius: 100%;
    margin-top: 40px;
