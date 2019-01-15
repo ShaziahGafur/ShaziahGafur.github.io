@@ -8,6 +8,7 @@ html, body {
     padding: 0;
     min-height: 100%;
     width: 100%;
+    height:100%;
 }
 
 .Section{
@@ -100,19 +101,65 @@ nav > ul a{
 /* Projects */
 
 .projects{
-  background: red;
+  background: white;
+  position: relative;
+  top: -27px;
 }
 
 .project-title{
     text-align: left;
-    margin-left: 100px;
-    font-family: 'Oswald', sans-serif;
+    margin-left: 80px;
+    font-family: 'Niramit', sans-serif;
+    color: black;
+}
+.projects > div{
+  text-align: left;
 }
 
-.item{
-     color: #C0D9E5;
-     background:#44679F;
-     display: inline-block;
-     padding: 100px 150px 100px 150px;
-     font-family: 'Abel', sans-serif;
+.projects > div{
+  width: 49%; /*because the border width is > 0 px*/
+  float:left;
+  min-height:255px;
+  border-style: ridge;
+  border-radius: 3px;
+}
+
+.projects > div:nth-of-type(3),.projects > div:nth-of-type(4){
+  min-height:242px;
+
+}
+
+.projects h2, .projects h3,.projects h4, .projects p{
+  color:black;
+  text-align: inherit;
+  font-style: normal;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.projects h2{
+  font-size: 15px;
+  margin-top: 20px;
+
+}
+
+.projects h3{
+    font-style: italic;
+    font-size: 12px;
+
+}
+
+.projects h4{
+  color:rgb(31, 101, 186);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+
+}
+
+.projects p{
+  color:black;
+  text-align: inherit;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
 }
