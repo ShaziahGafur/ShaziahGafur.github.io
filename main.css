@@ -168,3 +168,23 @@ nav > ul a{
   color: rgb(200, 200, 200);
 
 }
+
+@media (max-width: 1215px) and (min-width:1000px){
+  .projects{
+    height: 1250px;
+  }
+}
+
+@media (max-width: 1000px)  and (min-width:650px){
+
+  .projects{
+    height: 1800px;
+  }
+}
+
+@media (max-width: 650px){
+
+  .projects{
+    height: 3500px;
+  }
+}
