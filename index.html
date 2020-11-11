@@ -35,12 +35,14 @@
    </head>
    <body>
      <script type="text/javascript" src="scripts/transitions.js"></script>
+     <script>
+
+     </script>
       <div class="landing Section">
       <img class="me" src="images/itsme.jpg"/>
          <h1>Shaziah Gafur</h1>
          <h2>"I don't get <span>JEALOUS</span>, I get <span>INSPIRED</span>"</h2>
-         <h3>Computer Engineering Student at the University of Toronto | Aspires to create Technological Global Impact</h3>
-
+         <h3>Computer Engineering Student at the University of Toronto | Currently seeking an internship starting in May 2021</h3>
          <nav>
             <ul>
                <li><a href="https://github.com/shaziahgafur"><img id="github" class="icon" src="images/github-e.png" onmouseover="iconHover(id)" onmouseout="iconBack(id)"/></a></li>
@@ -49,34 +51,97 @@
                <li><a href="mailto:shaziah.gafur@mail.utoronto.ca"><img id="email"class="icon" src="images/email-e.png" onmouseover="iconHover(id)" onmouseout="iconBack(id)"/></a></li>
             </ul>
          </nav>
+         <div id="down-arrow" class="arrow-down">
+           <a href="#work-experience"><span></span></a>
+         </div>
       </div>
-     <div class="projects Section">
-       <h1 class="project-title">Projects</h1>
-       <div> <!--for each project-->
-       <h2>Process Improvement for reBOOT Canada</h2>
-        <h3>Oct 2018 – Present</h3>
-        <p>Designing a relational database management system using the tools Python & Django, PostgreSQL and Heroku to employ task automation for reBOOT Canada. The project aims to improve the process of receiving and distributing hardware.</p>
-        <h4>Tools: Djano and PostgreSQL</h4>
+
+      <div class="work-experience Section" id="work-experience">
+         <h1 class="work-title">Work Experience</h1>
+         <div class="job-section">
+            <!--for each job-->
+            <span class="left">
+               <h2>IT Business Analyst @ Bell Canada</h2>
+               <h3>Mississauga, Ontario | May 2020 – Aug 2020</h3>
+            </span>
+            <span class="right">
+               <ul class="job-desc">
+                  <li>Reconstructed obsolete website for Operations Technical & Systems Support using Java’s Spring Framework and Spring MVC architecture. Mentored the original creator who formerly built the site with Classical ASP and static HTML and CSS</li>
+                  <li>Engineered new web components including employee login & authentication to enhance security of 1000+ employee users</li>
+                  <li>Crafted search engine and implementation for Corporate Asset Library with Solr, increasing relevancy of results by 60%</li>
+                  <li>Designed new data mapping for increasing efficiency of flows of IT Configuration Items among 10+ data sources</li>
+               </ul>
+               <h4>Skills: Java, Spring Framework, Spring MVC, Solr, HTML, CSS</h4>
+            </span>
+         </div>
+         <div class="job-section">
+            <!--for each job-->
+            <span class="left">
+               <h2>Software Engineer Intern @ Royaltymine</h2>
+               <h3>Toronto, Ontario | June 2019 – Aug 2019</h3>
+            </span>
+            <span class="right">
+               <ul class="job-desc">
+                  <li>Developed cloud-based application from scratch with team of 10 interns using NodeJS, MongoDB, React to sustain online marketplace for music creators and investors to share music and collect royalties; currently used by over 300+ members</li>
+                  <li>Defined architecture and data models, managed tracking of revenue and user analytics, implemented back-end features from scratch, and established flow of payment splitting among shareholders; reported royalty earnings with 100% accuracy</li>
+                  <li>Created REST APIs through React and NodeJS for performing CRUD operations and facilitating database transactions</li>
+                  <li>Performed automated and manual testing with Postman and MochaJS to enhance back-end features and API endpoints</li>
+               </ul>
+               <h4>Skills: Java, Spring Framework, Spring MVC, Solr, HTML, CSS</h4>
+            </span>
+         </div>
       </div>
-      <div> <!--for each project-->
-      <h2>Piano Chord Detection using Fourier Analysis</h2>
-       <h3>Nov 2017 – Feb 2018</h3>
-       <p>Self-directed research project aiming to analyze and identify music notes that compose piano chords using the techniques of the Fourier Transform and Fourier Series. Java was used to simplify complex calculations of the Fourier Transform and implement sorting algorithms. Python was used additionally for the Mingus library to assess frequency distribution and identify musical notes</p>
-       <h4>Tools: Java and Python</h4>
-     </div>
-     <div> <!--for each project-->
-     <h2>Augmented Workouts - Winning Project at JAMHacks 2017 (hackathon) for Best Use of Projection</h2>
-      <h3>April 2017</h3>
-      <p>Fitness Gaming Console that immerses the user in a 3D virtual environment and is responsive to the user's movements
-My role included developing C++ code for pedometer functions and constructing a calorie counter by interpreting physical movements. I was also involved in hardware setup and research.</p>
-      <h4>Tools: C++</h4>
-    </div>
-     <div> <!--for each project-->
-     <h2>BTOC Solutions</h2>
-      <h3>Oct 2016 – Mar 2017</h3>
-      <p>A customer-relationship management database system for a private company. This was built from scratch by myself using SQL, Microsoft Access & Excel. Advanced techniques include an automatic email system, macros, report & form generation, and error handling through Visual Basic and input masks.</p>
-      <h4>Tools: SQL, Microsoft Access, Microsoft Excel and Visual Basic</h4>
-    </div>
-    </div>
+      <div class="projects Section">
+         <h1 class="project-title" id="projects">Projects</h1>
+         <div>
+            <!--for each project-->
+            <h2>Masks Unmasked</h2>
+            <h3>Sept 2020 – Present</h3>
+            <p>Developing computer vision application to detect appropriate social distancing and mask use to limit spread of COVID-19 for the course APS360: Machine Learning Fundamentals. Engineering the baseline model, managing machine learning data processing and creating Artificial Neural Network architecture in PyTorch and NumPy.</p>
+            <h4>Tools: Python, PyTorch, Deep Learning, Teamwork</h4>
+         </div>
+         <div>
+            <!--for each project-->
+            <h2>All Nightr</h2>
+            <h3>Jan 2020 – Apr 2020</h3>
+            <p>Developed a GIS map application for students to locate study spots and places for food outside of class hours, as part of course ECE297 (Software Design and Communication) in C++ using the Open Source code of OpenStreetMap. Implemented path finding algorithms for determining directions, shortest routes, and constrained paths. Created tactics to predict user’s search requests with suggestive text, reducing chance of user error by 50%. Enhanced performance by 60% and memory usage by 30%. Optimized map visualization using the Open Source GTK toolkit.</p>
+            <h4>Skills: C++, GTK, Linux, Git, Teamwork</h4>
+         </div>
+         <div>
+            <!--for each project-->
+            <h2>Nim</h2>
+            <h3>Mar 2020 – Apr 2020</h3>
+            <p>Created computer program of the traditional game of Nim designed for ARMv7 architecture based on Altera DE1-SoC system. Programmed in C and accepts keyboard as user input and displays VGA graphics. Completed advanced game features, including game reset, game rounds and scoring, and adjustable game difficulty</p>
+            <h4>Skills: C, Assembly, ARM architecture, Hardware </h4>
+         </div>
+         <div>
+            <!--for each project-->
+            <h2>Process Improvement for reBOOT Canada</h2>
+            <h3>Oct 2018 – Jul 2019</h3>
+            <p>Resolved complications of data integrity and tracking of refurbished hardware for reBOOT Canada by creating the first cloud-based relational management system in Python with Heroku for controlling flow of hardware donations. Enabled task automation to shrink data input time by 3 times. Integrated PostgreSQL database and Django to perform analytics, user authentication and facilitate database transactions</p>
+            <h4>Tools: Djano and PostgreSQL</h4>
+         </div>
+         <div>
+            <!--for each project-->
+            <h2>Piano Chord Detection using Fourier Analysis</h2>
+            <h3>Nov 2017 – Feb 2018</h3>
+            <p>Self-directed research project to identify music notes of piano chords in a sample of music; topped 1st out of 120+ projects. Self-taught university-level mathematics and digital signal processing as a high school student. Developed program with Java and MATLAB to simplify complex calculations of the Fourier Transform and implement sorting algorithms, assess frequency distribution, and identify specific musical keys.</p>
+            <h4>Tools: Java and MATLAB</h4>
+         </div>
+         <div>
+            <!--for each project-->
+            <h2>Augmented Workouts</h2>
+            <h3>March 2017</h3>
+            <p>Winning Project at JAMHacks 2017 hackathon for 'Best Use of Projection'. Designed fitness gaming console to make wearisome exercise more enjoyable by immersing the user in a responsive 3D virtual environment using the Xadow Intel Edison development board. Participants reported 70% more willing to exercise. Generated a pedometer and calorie counter using C++ and Arduino to interpret gestures as exercise movements. Achieved strong foundation of hardware components by debugging conflicts and connecting different types of interfaces</p>
+            <h4>Tools: C++, Arduino, Hardware</h4>
+         </div>
+         <div>
+            <!--for each project-->
+            <h2>BTOC Solutions</h2>
+            <h3>Oct 2016 – Mar 2017</h3>
+            <p>Solved issues of data loss and inefficient storage by implementing a customer relations database management system from scratch using SQL, Microsoft Access & Excel; structuring client information for 100+ television service subscribers. Reduced time for data retrieval by 3 times; produced data clarity by creating meaningful insights from 15+ SQL queries. Decreased chance of input error by 5 times by improving input validation with input masks, macros and by building 10 forms.</p>
+            <h4>Tools: SQL, Microsoft Access, Microsoft Excel and Visual Basic</h4>
+         </div>
+      </div>
    </body>
 </html>
