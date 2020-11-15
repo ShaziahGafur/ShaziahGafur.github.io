@@ -169,7 +169,7 @@ nav > ul a{
 
 .projects{
   text-align: center;
-  height:130.5%;
+  height:1350px;
   background: black;
   position: relative;
   top: -54px;
@@ -188,15 +188,11 @@ nav > ul a{
 .projects > div{
   width: 49.5%; /*because the border width is > 0 px*/
   float:left;
-  min-height:255px;
+  min-height:300px;
   border-style: ridge;
   border-radius: 1px;
 }
 
-.projects > div:nth-of-type(3),.projects > div:nth-of-type(4){
-  min-height:242px;
-
-}
 
 .projects h2, .projects h3,.projects h4, .projects p{
   color:white;
@@ -238,25 +234,75 @@ nav > ul a{
 
 }
 
+@media (min-width: 1215px){
+
+  .projects{
+    height: 1400px;
+  }
+
+  .projects > div{
+    min-height:310px;
+  }
+}
+
+
 @media (max-width: 1215px) and (min-width:1000px){
   .projects{
-    height: 1250px;
+    height: 1600px;
+  }
+
+  .projects > div{
+    height: 370px;
+
   }
 }
 
-@media (max-width: 1000px)  and (min-width:650px){
+@media (max-width: 1000px) and (min-width:800px){
+  .projects{
+    min-height: 2100px;
+  }
+
+  .projects > div{
+    height:470px;
+
+  }
+
+  .work-experience{
+    height:115%;
+  }
+}
+
+@media (max-width: 800px) and (min-width:650px){
+  .projects{
+    min-height: 3620px;
+  }
+
+  .projects > div{
+    min-height:800px;
+  }
+
+  .work-experience{
+    height:132%;
+  }
+}
+
+
+@media (max-width: 650px) {
 
   .projects{
-    height: 1800px;
+    min-height: 3500px;
+  }
+
+  .projects > div{
+    min-height:300px;
+    width: 99%;
+
+  }
+  .work-experience{
+    height:167%;
   }
 }
 
-@media (max-width: 650px){
-
-  .projects{
-    height: 3500px;
-  }
-}
 
 /*style for button*/
 section::after {
