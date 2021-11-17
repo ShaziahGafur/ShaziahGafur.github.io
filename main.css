@@ -12,10 +12,11 @@ html, body {
     min-height: 100%;
     width: 100%;
     height:100%;
+    background-color:black;
 }
 
 .Section{
-  height:100%;
+  /*height:100%;*/
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -31,6 +32,7 @@ html, body {
   background-image: url("images/bkgrnd_edits/bkgrnd-10_crystal_71.4_80speed.gif"); /*remove when you don't feel dizzy*/
   background-size: 100%;
   background-color:black;
+  height: 100%;
   /*filter: brightness(50%);*/
   background-blend-mode: screen;
 }
@@ -54,8 +56,12 @@ h2{
   color:white;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
-  margin-top: 50px;
+/*  margin-top: 50px; */
   font-size: 25px;
+}
+
+h2.first-line{
+  margin-top: 50px;
 }
 
 h2 > span{
@@ -72,6 +78,7 @@ h3{
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-size: 15px;
+  margin-top: 50px;
 }
 
 
@@ -96,7 +103,7 @@ nav > ul a{
   padding-left: 7px;
   padding-right: 7px;
   position: relative;
-  left: -11px;
+  left: -21px;
   transition: all 0.5s linear;
  }
 
@@ -106,7 +113,7 @@ nav > ul a{
 
 /* Work Experinece */
 .work-experience{
-  height:100%;
+/*  height:130%; */
   background: black;
   position: relative;
   top: -27px;
@@ -121,6 +128,11 @@ nav > ul a{
 .job-section{
     margin-top: 5%;
     min-height: 250px;
+}
+
+.last-job{
+    margin-top: 5%;
+    min-height: 300px;
 }
 
 .work-experience h2, .work-experience h3{
@@ -146,6 +158,12 @@ nav > ul a{
   text-align: right;
 
 }
+
+.work-experience span.left h2{
+  width: 50%;
+  margin-left: 43%;
+}
+
 .work-experience span.right{
   width: 50%;
   float:left;
@@ -169,7 +187,8 @@ nav > ul a{
 
 .projects{
   text-align: center;
-  height:1350px;
+  /*height: 1350px; */
+  height:500%;
   background: black;
   position: relative;
   top: -54px;
@@ -234,6 +253,7 @@ nav > ul a{
 
 }
 
+
 @media (min-width: 1215px){
 
   .projects{
@@ -254,6 +274,10 @@ nav > ul a{
   .projects > div{
     height: 370px;
 
+  }
+
+  .last-job{
+    min-height: 500px;
   }
 }
 
@@ -298,8 +322,8 @@ nav > ul a{
     width: 99%;
 
   }
-  .work-experience{
-    height:167%;
+  .job-section{
+    min-height: 750px;
   }
 }
 
