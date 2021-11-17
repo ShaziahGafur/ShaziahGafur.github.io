@@ -312,6 +312,9 @@ nav > ul a{
 
 
 @media (max-width: 650px) {
+  .arrow-down{
+    display: none;
+  }
 
   .projects{
     min-height: 3500px;
@@ -324,6 +327,29 @@ nav > ul a{
   }
   .job-section{
     min-height: 750px;
+  }
+
+  work-experience span.left{
+    width: 70%;
+    float: none;
+    text-align: center;
+
+  }
+
+  .work-experience span.left h2{
+    width: 100%;
+    margin-left: 43%;
+  }
+
+  .work-experience span.left h3{
+    width: 100%;
+    margin-left: 43%;
+  }
+
+  .work-experience span.right{
+    width: 50%;
+    float: none;
+    text-align: center;
   }
 }
 
